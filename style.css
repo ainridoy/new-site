@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half-spc {
@@ -21,7 +22,8 @@ section {
 }
 
 .half-spc img {
-    width: 95%;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .shop-btn {
@@ -36,4 +38,14 @@ section {
 .background-img {
     background-image: url(images/Background.jpg);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/c.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.se-p {
+    padding-right: 10%;
 }
