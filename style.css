@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -48,4 +48,33 @@ section {
 
 .se-p {
     padding-right: 10%;
+}
+
+.exprns-ara {
+    background-image: url(images/Background2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experinc-item {
+    width: 50%;
+    padding-left: 30px;
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 15px 15px 40px gray;
+    border-radius: 15px;
+
+}
+
+#offline-business {
+    border-left: 7px solid tomato;
+}
+
+#online-business {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+    font-size: larger;
 }
